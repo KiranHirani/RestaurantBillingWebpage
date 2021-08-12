@@ -1,0 +1,268 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    /* transform:scale(1); */
+}
+
+#container{
+    display: flex;
+}
+
+/* ----------  Styles for elements in SECTION 1 ------------- */
+
+.section1{
+    width:20px;
+    background-color:white;
+    border-right:solid 2px white;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    padding-right:30px;
+}
+
+/* table chAir image on section1  */
+.section1 .table-chair{
+    margin-top:-2px;
+    margin-left: -10px;
+    width:70px;
+    height:70px;
+    mix-blend-mode: multiply;
+    margin-bottom: 100px;
+}
+
+/* calendar and address book */
+.section1 .calendar, .address-book{
+    margin-top:40px;
+    width:22px;
+    height:22px;
+    margin-left:10px;
+    mix-blend-mode: multiply;
+}
+
+/* fork and knife image */
+.section1 .fork-knife{
+    margin-top:40px;
+    width:40px;
+    height:40px;
+    margin-left: 5px;
+    mix-blend-mode: multiply;
+}
+
+/* Settings icon */
+.section1 .settings{
+    margin-top:200px;
+    margin-left:10px;
+    width:40px;
+    height:20px;
+    mix-blend-mode: multiply;
+}
+
+
+
+
+/* ----------------------- Styles for elements in SECTION 2 --------------------- */
+
+
+.section2{
+    width:950px;
+    padding: 20px;
+    margin-right: 2px;
+}
+
+
+/* main Heading and Today   */
+h2, .today-heading{
+    font-family: Georgia, Times, "Times New Roman";
+    font-weight:lighter;
+    text-align: center;
+    margin-top:-1px;
+    letter-spacing: 1px;   
+}
+
+.today{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+}
+
+/* dropdown along with today */
+.dropdown{
+    margin-left: 5px;
+    width:20px;
+    height:20px;
+}
+
+
+.table{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Styling Div with categories drinks, food and dessert */
+.section2 .sections{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:10px;
+    width:870px;
+    border: grey solid 2px;
+    padding: 9px 0px;
+    border-left: none;
+}
+
+/* Each category is a span tag, and below are the styles for them   */
+.section2 .sections span{
+    margin-right: 50px;
+    font-size:normal;
+    padding:10px 95px; 
+}
+
+.drinks{
+    background-color: black;
+    color:white;
+}
+
+/* Wine div along with dropdown */
+.section2 .menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:7px;
+    width:860px;
+    border: grey solid 2px;
+    padding-bottom:5px;
+    padding-top:2px;
+    padding-left:8px;
+    font-size:normal;
+}
+
+.section2 .menu .dropdown2{
+    margin-left: 770px;
+    margin-top:2px;
+    width:20px;
+    height: 20px;
+}
+
+/* Styling for wines */
+
+.wine{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for each row */
+
+.wine .row{
+    display: flex;
+    margin-top: 13px;
+}
+
+/* Each wine and its details are inside div with class inside-wines. Below are the styles for the same */
+
+.wine .row .inside-wines{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-right: 45px;
+    display: flex;
+    padding: 0px 9px;
+    padding-right:35px;
+}
+
+.wine .row .inside-wines img{
+    width:80px;
+    height:120px;
+    padding:2px 30px;
+}
+
+.wine .row .inside-wines h6{
+    font-size: 13px;
+}
+
+.wine .row .inside-wines span button{
+    border: black 1px solid;
+    padding:10px 15px;
+    margin:2px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.wine .row .inside-wines .wine-data{
+    margin-left:20px;
+}
+
+
+/* --- Styles on hovering on the wine images--- */
+
+.wine .row .inside-wines img:hover{
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+
+
+/* ----------------- Styling for SECTION 3 ------------------ */
+.section3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:270px;
+    min-height: 100%;
+    letter-spacing: 1px;
+    margin-top:20px;
+}
+
+/* Search icon */
+.section3 .search-icon{
+    width:35px;
+    height:35px;
+    margin-left: 200px;
+}
+
+/* split -check  */
+.section3 .split-check{
+    display: flex;
+    margin-left: 150px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top:38px;
+}
+
+/* disabled icon */
+.section3 .disable{
+    margin-top: 6px;
+    margin-left:15px;
+    width:35px;
+    height:35px;
+    padding:0px;
+}
+
+td{
+    padding-right:10px;
+}
+
+/* Calculations */
+.calc-total{
+    margin-top: 60px;
+}
+
+.calc-total td{
+    padding-right:60px;
+    font-size: 12px;
+    color:grey;
+}
+
+/* Submit button */
+.submit{
+    margin-top:10px;
+    padding: 10px 90px;
+    display: block;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: normal;
+    border: solid green 2px;
+    letter-spacing: 2px;
+}
+
+/* newRow is the dynamically added class, when any drink is added */
+.newRow{
+    font-size:12px;
+    font-weight:lighter;   
+}

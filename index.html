@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- Section 1 is the side panel  -->
+        <div class="section1">
+            <img src="images/table-chair.jpg" alt="dining-roon-icon" class="table-chair">
+            <img src="images/checked-calendar.png" alt="calendar" class="calendar">
+            <img src="images/fork-knife-icon(2).jpg" alt="fork-knife" class="fork-knife">
+            <img src="images/address-book.png" alt="address-book" class="address-book">
+            <img src="images/settings-icon.png" alt="settings" class="settings">
+        </div>
+
+        <!-- Section 2 includes drinks with details, menu, table details etc.  -->
+        <div class="section2">
+            <h2>The Great Table</h2>
+            <div class="today">
+                <h4 class="today-heading">Today</h4>
+                <img src="images/dropdown.png" alt="dropdown" class="dropdown">
+            </div>
+            <span class="table">Table <b>5 - Mrs. Einstein</b></span>
+
+            <div class="sections">
+                <span class="drinks">Drinks</span>
+                <span>Food</span>
+                <span>Dessert</span>
+            </div>
+
+            <div class="menu">
+                <span>Wine</span>
+                <img src="images/dropdown.png" alt="dropdown" class="dropdown2">
+            </div>
+
+            <!-- Has a div enclosing the wines in 3 rows -->
+            <div class="wine">
+                <!-- Row 1 -->
+                <div class="row">
+                    <div class="inside-wines">
+                        <img src="images/beaux-freres(2).jpg" alt="beaux-freres">
+                        <div class="wine-data">
+                            <p>Beaux Freres</p>
+                            <p>$ 7.50</p>
+                            <span>
+                                <button>-</button>
+                                <button class="quantity">0</button>
+                                <button>+</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="inside-wines">
+                        <img src="images/chateau-climens.jpg" alt="chateau-climens">
+                        <div class="wine-data">
+                            <p>Chateau Climens</p>
+                            <p>$ 3.00</p>
+                            <span>
+                                <button>-</button>
+                                <button class="quantity">0</button>
+                                <button>+</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="row">
+                    <div class="inside-wines">
+                        <img src="images/federalist.png" alt="federalist">
+                        <div class="wine-data">
+                            <p>Federalist</p>
+                            <p>$ 8.80</p>
+                            <span>
+                                <button>-</button>
+                                <button class="quantity">0</button>
+                                <button>+</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="inside-wines">
+                        <img src="images/cabernet.jpg" alt="cabernet">
+                        <div class="wine-data">
+                            <p>Cabernet Sauvignon</p>
+                            <p>$ 9.25</p>
+                            <span>
+                                <button>-</button>
+                                <button class="quantity">0</button>
+                                <button>+</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row">
+                    <div class="inside-wines">
+                        <img src="images/domaine-serene.jpg" alt="domaine-serene">
+                        <div class="wine-data">
+                            <p>Domaine Serene</p>
+                            <p>$ 6.00</p>
+                            <span>
+                                <button>-</button>
+                                <button class="quantity">0</button>
+                                <button>+</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="inside-wines">
+                        <img src="images/lewis-alecs.jpeg" alt="lewis-alecs">
+                        <div class="wine-data">
+                            <p>Lewis Alecs</p>
+                            <p>$ 4.00</p>
+                            <span>
+                                <button>-</button>
+                                <button class="quantity">0</button>
+                                <button>+</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 has the billing details -->
+        <div class="section3">
+            <img src="images/search-icon(2).png" alt="search-icon" class="search-icon">
+            <span class="split-check">
+                <p>Split Check</p>
+                <img src="images/disable button icon.png" alt="disable" class="disable">
+            </span>
+
+            <h4>Check</h4>
+            <div class="calculation">
+                <div class="drinks-calc">
+                    <h5>Drinks</h5>
+                    <table cellspacing="3" cellpadding="3">
+                        <!-- This is sample data -->
+                        <!-- <tr>
+                            <td class="names">Domain Serene</td>
+                
+                            <td>$6.00 x 2</td>
+                        
+                            <td>$12.00</td>
+                        </tr>
+                        <tr>
+                            <td class="names">Water</td>
+                            <td>$13.50</td>
+
+                            <td>$13.50</td>
+                        </tr> -->
+                    </table>
+                </div>
+                <hr>
+                <!-- Food Calculation, there is sample data -->
+                <div class="food-calc">
+                    <h5>Food</h5>
+                    <table cellspacing="3" cellpadding="3">
+                        <!-- <tr>
+                            <td class="names" >Steak With Rice</td>
+                            <td>$14.00</td>
+                            <td>$14.00</td>
+                        </tr>
+                        <tr>
+                            <td class="names">Fish and Chips</td>
+                            <td>$13.50 x 2</td>
+                            <td>$27</td>
+                        </tr> -->
+                    </table>
+                </div>
+                <hr>
+
+                <!-- Dessert Calculation -->
+                <div class="dessert-calc">
+                    <h5>Dessert</h5>
+                    <table cellspacing="3" cellpadding="3">
+                        <!-- <tr>
+                            <td class="names">CheeseCake</td>
+                            <td>$4.50</td>
+                            <td>$4.50</td>
+                        </tr> -->
+                    </table>
+                </div>
+
+                <hr>
+
+                <!-- Total Calculation -->
+                <div class="calc-total">
+                    <table>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td></td>
+                            <td class="subtotal">$0.00</td>
+                        </tr>
+                        <tr>
+                            <td>Estimated Taxes</td>
+                            <td></td>
+                            <td>$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Discount</td>
+                            <td></td>
+                            <td>$0.00</td>
+                        </tr>
+                    </table>
+                    <button class="submit">PAY $0.00</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
