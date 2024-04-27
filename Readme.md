@@ -14,4 +14,4 @@ One can increase or decrease the quantity of drinks and it would calculate the f
 
 Clone the repository and run index.html
 
-You can view the webpage here https://adoring-kilby-f0ae03.netlify.app
+You can view the webpage here https://restaurant-webpage-kh.netlify.app/
